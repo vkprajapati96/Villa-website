@@ -1,0 +1,215 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+/*  wrapper*/
+.wrapper {
+    width: 90%;     
+    max-width: 1200px;
+    margin: 0 auto; 
+    border: 1px solid;
+}
+
+/* header section */
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: .4rem 0;
+}
+
+
+.header-paras {
+    display: flex;
+    /* border: 1px solid; */
+}
+
+
+.header-paras p {
+
+    display: flex;
+    gap: .4rem;
+    font-size: 1rem;
+    align-items: center;
+}
+
+.header-paras p i {
+    font-size: 1.5rem;
+    color: #F35424;
+}
+
+
+#header-p1 {
+    padding: 0 1rem 0 0;
+    border-right: 1px solid #f0f0f0;
+}
+
+#header-p2 {
+    padding: 0 0 0 1rem;
+}
+
+
+.header-icons {
+    display: flex;
+    gap: 1rem;
+}
+
+.header-icons i {
+    font-size: 1.5rem;
+    padding: .2rem;
+    border-radius: 50%;
+    color: #f0f0f0;
+    background: gray;
+}
+
+
+
+/* Navbar section */
+
+
+.nav-items{
+display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.2rem 0;
+}
+
+#nav-logo{
+font-size: 1.5rem;
+font-weight: 600;
+}
+.nav-pages{
+display: flex;
+gap: 3rem;
+}
+
+.nav-pages ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}   
+
+.nav-pages ul li {
+    list-style: none;
+    display: flex;
+    /* font-weight: 600; */
+}
+
+
+.nav-pages ul li:nth-child(1){
+
+    color: #F35424;
+
+}
+
+.nav-btn{
+    background: #1E1E1E;
+    color: white;
+    /* padding: 1rem; */
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    /* padding: 0; */
+    /* justify-content: space-between; */
+    border-radius: 21px 21px 21px 21px ;
+}
+.nav-btn p{
+    padding: 0 1.2rem;
+}
+
+.nav-btn i{
+    color: white;
+    background-color: #F35424;
+    padding: .7rem;
+    border-radius: 50%;
+}
+
+/* carousel */
+.caro-container{
+width: 100%;
+height:90vh;
+/* background-color: red; */
+/* border: 2px solid  green; */
+position: relative;
+
+}
+
+
+
+.item-img{
+    width: 100%;
+    height:90vh;
+    /* border: 5px solid black; */
+    /* position: relative; */
+}
+
+.item-img img{
+    width: 100%;
+    height: 100%;
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+  .caro-taxt {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    top: 20%;
+    left: 20%;
+    /* transform: translateX(-50%); */
+    /* background: rgba(0, 0, 0, 0.6); */
+    color: white;
+    z-index: 999;
+    /* padding: ; */
+    /* border/-radius: 5px; */
+    /* text-align: center; */
+    /* border: 1px solid; */
+    /* max-width: 290px; */
+  }
+
+  
+  .caro-taxt :nth-child(1){
+    background-color:white;
+    /* padding:; */
+    margin-right: 6rem;
+    font-size: 1.1rem;
+    color: black;
+
+
+  }
+  
+  .caro-taxt :first-child span{
+    /* background:white; */
+    color: red;
+    /* font-size: 1.2rem; */
+  }
+  
+ .caro-taxt :nth-child(2){
+    font-size: 2.7rem;
+    font-weight: 600;
+    
+}
+
+/* appartments */
+.apparts{
+    margin-top: 8rem;
+    border: 1px solid;
+    display: flex;
+    gap: 2rem;
+}
+.apparts .appart-img{
+    
+}
