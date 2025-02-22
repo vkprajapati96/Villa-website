@@ -10,6 +10,7 @@ body {
     height: 100%;
     font-family: sans-serif;
     
+    
 }
 
 /*  wrapper*/
@@ -37,7 +38,6 @@ body {
 
 
 .header-paras p {
-
     display: flex;
     gap: .4rem;
     font-size: 1rem;
@@ -211,6 +211,7 @@ position: relative;
     /* border: 1px solid; */
     display: flex;
     gap: 4rem;
+    background: #FFFFFF;
 }
 .appart-img {
     height: 420px;
@@ -261,8 +262,8 @@ border: 1px solid;
     color: #F35424;
     font-size: 1rem;
     font-weight:600;
-    border-left: 3px solid  #F35424;
-    padding-left: 4px;
+    border-left: 3px solid #F35424;
+    padding:0 0 0 4px;
     
 }
 
@@ -384,6 +385,121 @@ color: #1E1E1E;
 }
 
 
+/* video section */
+.video-section{
+padding-top: 2rem;
+}
+
+.video-img{
+/* border: 1px solid red; */
+width: 100%;
+height: 70vh;
+position: relative;
+}
+
+.video-img img{
+    width: 100%;
+    height: 70vh;
+    object-fit: cover;
+/* z-index: 0; */
+    background-repeat: no-repeat;
+    filter: blur(4px);
+}
+
+.video-view-titles{
+position: absolute;
+/* background: red; */
+/* top: 10%; */
+transform: translate(-50%);
+top: 15%;
+left: 50%;
+display: flex;
+flex-direction: column;
+gap: 1.5rem;
+align-items: center;
+
+}
+
+#video-view-title-1{
+    font-weight: 600;
+font-size: .6rem;
+color: #F35424;
+padding-left: 3px;
+border-left:3px solid #F35424;
 
 
+}
 
+#video-view-title-2{    
+    text-align: center;
+z-index: 999;
+font-size: 2rem;
+color: white;
+font-weight: 600;
+line-height: 3rem;
+}
+
+
+video{
+    /* overflow-x: hidden; */
+    position: absolute;
+    transform: translate(-50%);
+/* border: 1px solid; */
+    left: 50%;
+    top: 50%;
+    /* bottom: 50%; */
+    width: 70%;
+    height: 60vh;
+    /* position: absolute; */
+    background-repeat:no-repeat;
+    object-fit: cover;
+border-radius: 10px;    
+}
+
+/* one more class used  in  html -wrapper */
+.video-informations{
+    /* border: 1px solid ; */
+    margin-top: 18rem;
+    /* margin-bottom: 5rem; */
+    display: flex;
+    justify-content: space-between;padding: 0 1rem;
+    /* margin-bottom: 5rem; */
+    /* padding-bottom: 1rem; */
+}
+
+.video-info{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    background-color: #FFEEE9;
+    padding:1rem 2rem;
+    border-radius: 10px;
+    position: relative;
+    
+}
+.video-info-p1{
+    font-size: 2.2rem;
+    color: #F35424;
+    font-weight: 600;
+}
+.video-info-para{
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.video-info-para p{
+    font-size: 1rem;
+    color: #1E1E1E;
+    font-weight: 500;
+}
+
+#video-info-badge {
+    top: -34%;
+    right: -16%;
+    position: absolute;
+    background-color: #F35424;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
