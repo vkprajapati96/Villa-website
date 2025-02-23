@@ -386,6 +386,7 @@ color: #1E1E1E;
 
 
 /* video section */
+
 .video-section{
 padding-top: 2rem;
 }
@@ -472,7 +473,7 @@ border-radius: 10px;
     align-items: center;
     gap: 1.5rem;
     background-color: #FFEEE9;
-    padding:1rem 2rem;
+    padding:1rem 3rem;
     border-radius: 10px;
     position: relative;
     
@@ -503,3 +504,463 @@ border-radius: 10px;
     height: 50px;
     border-radius: 50px;
 }
+
+/* deal section */
+
+.best-deal-container{
+    background: #FAFAFA;
+    margin-top: 5rem;
+    padding-top: 4rem;
+}
+.deal{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.title-and-btns{
+display: flex;
+justify-content:space-between;
+
+}
+.deal-cards{
+    /* border: 1px solid red; */
+    display: flex;
+    gap: 4rem;
+    padding-bottom: 4rem;
+}
+.deal-card-1{
+    box-shadow: 0 0 7px black;
+    padding:.5rem 1.5rem;
+    max-height:300px;
+}
+
+.deal-card-1-para{
+    display: flex;
+    gap: 4rem;
+    border-bottom: 1px solid #f0f0f0;
+    padding: 1rem 0;
+}
+
+
+.deal-card-1-para p:first-child{
+font-size: .7rem;
+color: gray;
+}
+.deal-card-1-para p:nth-child(2){
+    font-size: 1rem;
+    color: #1E1E1E;
+    font-weight: 600;
+    }
+    
+
+
+.deal-card-1-para1{
+    display: flex;
+    gap: 3rem;
+    /* border-bottom: 1px solid #f0f0f0; */
+    padding: 1.5rem 0;
+}
+
+.deal-card-1-para1 p:first-child{
+    font-size: .7rem;
+color: gray;
+
+}
+
+.deal-card-1-para1 p:nth-child(2){
+    font-size: 1rem;
+    color: #1E1E1E;
+    font-weight: 600;
+    }
+
+
+    
+.deal-card-2{
+    max-width: 500px;
+    width: 100%;
+    height: 48vh;
+    /* border: 1px solid; */
+}
+
+
+
+
+
+.deal-card-2 img{
+    width: 100%;
+    height: 48vh;
+    /* height: 100%; */
+    object-fit: cover;
+}
+
+.deal-information{
+    /* border: 1px solid red; */
+    max-width: 300px;
+    display:flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+
+.deal-information h3{
+    font-size:1rem;
+    color: #1E1E1E;
+}
+.deal-information p{
+    line-height:1.5rem;
+    font-size:.8rem;
+    color: grey;
+
+
+}
+
+
+
+.deal-btn{
+    max-width:200px ;
+    background: #1E1E1E;
+    color: white;
+    padding:0 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    /* padding: 0; */
+    /* justify-content: space-between; */
+    border-radius: 21px 21px 21px 21px ;
+}
+.deal-btn p{
+    padding: 0 1rem;
+    color: white;
+}
+
+.deal-btn i{
+    color: white;
+    background-color: #F35424;
+    padding: .8rem;
+    border-radius: 50%;
+}
+
+
+.property-container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 4rem;
+    gap: 2rem;
+}
+
+.property{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.property p{
+    font-size: .6rem;
+    font-weight: 600;
+    color: #F35424;
+    border-left: 2px solid #F35424;
+}
+
+.property-cards{    
+width: 100%;
+/* background-color: red; */
+display: grid;
+grid-template-columns: repeat(3,1fr);
+grid-template-rows:repeat(2,1fr) ;
+grid-column-gap: 2rem;
+grid-row-gap: 2rem;
+/* border: 1px solid; */
+}
+
+.property-card{
+    /* border:1px solid yellow; */
+width: 100%;
+height: 75vh;
+background-color:#FAFAFA;
+border-radius: 10px;
+}
+.property-card img{
+    width: 100%;
+    height: 50%;
+    padding: 1rem 1rem;
+    object-fit: cover;
+    background-repeat: 
+    no-repeat;
+    border-radius: 25px;
+}
+/* */
+.property-type{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 0 1rem;
+}
+
+.property-type p:first-child{
+background-color:#FAD9CF  ;
+padding: .5rem 1rem;
+border-radius: 6px;
+color: #1E1E1E;
+font-weight: 500;
+}
+
+.property-type p:nth-child(2){
+    font-size: 1.2rem;
+    font-weight: 600;
+    color:#F35424;
+}
+
+
+.property-address{
+    padding: 1.3rem 0 0 1rem;
+    font-weight: 600;
+    font-size: 1.1rem;
+    color: #1E1E1E;
+}
+
+.property-card-room-info{
+    /* padding:; */
+    padding:  1.1rem 0 0 1rem;
+    display: flex;
+    gap: 2rem;
+}
+
+.property-card-room-info p{
+    font-size:.9rem;
+    color: gray;
+}
+
+.property-card-room-info span{
+    font-weight: 600;
+    color: #1E1E1E;
+}
+
+.property-card-info{
+    padding: 5px 0 0 1rem;
+    display: flex;
+    gap: 2rem;
+    /* border-bottom: 2px solid #f0f0f0; */
+
+}
+
+.property-card-info p{
+    font-size:.9rem;
+    color: gray;
+    display: flex;
+    gap: 5px;
+    /* padding-top: 5px; */
+}
+
+.property-card-info span{
+    font-weight: 600;
+    color: #1E1E1E;
+
+    /* padding: 0 0 0 1rem; */
+    /* display: flex; */
+    /* gap: 2rem; */
+}
+
+#property-card-info-border{
+border-bottom: 1px solid #f0f0f0;
+margin: 1.5rem 1rem 0 1rem;
+/* padding: 0 1rem; */
+}
+
+
+
+.property-btn{
+    text-wrap: wrap;
+    max-width:140px ;
+    margin: 2rem auto  0 auto;
+    background: #1E1E1E;
+    color: white;
+    padding :.7rem 1rem;
+    border-radius: 21px 21px 21px 21px ;
+    font-size: .9rem;
+}
+
+
+/* Contact section */
+
+
+.contact-section{
+    margin-top: 8rem;
+    /* padding-top: 2rem; */
+    }
+    
+    .contact-img{
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 70vh;
+    position: relative;
+    }
+    
+    .contact-img img{
+        width: 100%;
+        height: 70vh;
+        object-fit: cover;
+    /* z-index: 0; */
+        background-repeat: no-repeat;
+        filter: blur(4px);
+    }
+    
+    .contact-titles{
+    position: absolute;
+    /* background: red; */
+    /* top: 10%; */
+    transform: translate(-50%);
+    top: 15%;
+    left: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: center;
+    
+    }
+    
+    #contact-title-1{
+     z-index:999;
+    font-weight: 600;
+    font-size: .6rem;
+    color: #F35424;
+    padding-left: 3px;
+    border-left:3px solid #F35424;
+    
+    
+    }
+    
+    #contact-title-2{    
+        text-align: center;
+    z-index: 999;
+    font-size: 2rem;
+    color: white;
+    font-weight: 600;
+    line-height: 3rem;
+    }
+    
+
+
+    .contact{
+        position: absolute;
+        top: 50%;
+        left: 10%;
+    display: flex;
+    gap: 2rem;
+    /* border: 1px solid palevioletred; */
+
+    }
+.contact-map{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    flex: 1; 
+    height: 40%;
+    /* border: 10px solid; */
+}
+ 
+.contact-map .contact-map-img{
+    /* max-width: 600px; */
+    /* width: 100%; */
+    height:60vh;
+    /* border: 5px solid red; */
+}
+
+.contact-map-img img{
+    width: 100%;
+    height:100%;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    filter: blur(0);
+}
+
+form{
+
+    background: white;
+    padding: 1.2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    /* flex: 1 */
+
+}
+
+label {
+    font-size: .9rem;
+    /* font-weight: bold; */
+    /* display: block; */
+    margin-top: 10px;
+
+}
+input {
+    width: 100%;
+    padding: .8rem 1rem;
+    margin: 1rem 0;
+    border:none;
+    border-radius: 20px;
+    background-color: #F6F6F6;
+}
+
+textarea {
+    width: 100%;
+    padding: 1rem 1rem;
+    margin-top: 5px;
+    border:none;
+    border-radius: 15px;
+    background-color: #F6F6F6;
+
+}
+form button {
+    margin-top: 2.5rem;
+    width: 45%;
+    padding: 1rem 1rem;
+    background:#1E1E1E;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+     .contact-informations{
+        /* border: 1px solid ; */
+        /* margin-top: 18rem; */
+        /* margin-bottom: 5rem; */
+        display: flex;
+        /* gap: 2.5rem; */
+        justify-content: space-between;
+
+        /* padding: 0 1rem; */
+        /* margin-bottom: 5rem; */
+        /* padding-bottom: 1rem; */
+    }
+    
+    .contact-info{
+        display: flex;
+        align-items: center;
+        gap: 1.5rem;
+        background-color: #FFEEE9;
+        padding:1rem 3rem;
+        border-radius: 10px;
+        position: relative;
+        
+    }
+  
+    .contact-info i{
+        font-size: 3rem;
+        color: #F35424;
+    }
+
+    .contact-info-para{
+        display: flex;
+        flex-direction: column;
+        gap: .5rem;
+    }
+    
+    .video-info-para p{
+        font-size: 1rem;
+        color: #1E1E1E;
+        font-weight: 500;
+    }
+    
+    
