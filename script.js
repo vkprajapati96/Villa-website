@@ -1,7 +1,11 @@
 $('.owl-carousel').owlCarousel({
     loop:true,
-    margin:10,
+    margin:0,
     nav:true,
+    items: 1, //
+    nav: true, // Shows navigation arrows
+    dots: true, // Shows pagination dots
+    autoplay: true,
     responsive:{
         0:{
             items:1
@@ -12,5 +16,7 @@ $('.owl-carousel').owlCarousel({
         1000:{
             items:1
         }
-    }
+    },
+
+    
 })
