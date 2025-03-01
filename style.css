@@ -2,6 +2,11 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    /* overflow-y: hidden; */
+    
+}
+::-webkit-scrollbar{
+    display: none;
 }
 
 html,
@@ -370,7 +375,7 @@ body {
     height: 100vh;
     /* background-color: red; */
     /* border: 2px solid  green; */
-    position: relative;
+    /* position: relative; */
 
 }
 
@@ -381,7 +386,7 @@ body {
     height: 100vh;
     overflow: hidden;
     /* border: 5px solid black; */
-    /* position: relative; */
+    position: relative;
 }
 
 .item-img img {
@@ -436,6 +441,39 @@ body {
 
 }
 
+@media (min-width:768px) and (max-width:1024px) {
+
+    .caro-taxt :nth-child(2) {
+        color: white;
+        font-size: 3vmax;
+        font-weight: 600;
+        line-height: 2.5rem;
+    }
+    
+}
+
+@media (min-width:768px) and (max-width:1024px) {
+
+    .caro-taxt :nth-child(2) {
+        color: white;
+        font-size: 3vmax;
+        font-weight: 600;
+        line-height: 2.5rem;
+    }
+    
+}
+@media (min-width:320px) and (max-width:425px) {
+
+    .caro-taxt :nth-child(2) {
+        color: white;
+        font-size: 6.5vmin;
+        font-weight: 600;
+        line-height: 10vmin;
+    }
+    
+}
+
+
 @media (max-width: 1000px) {
 
     .caro-container,
@@ -467,6 +505,7 @@ body {
         object-position: top center;
     }
 }
+
 
 
 
@@ -2289,6 +2328,7 @@ margin-top: .2vmax;
         display: flex;
         flex-direction: column;
         gap: 50vmax;
+        overflow: hidden;
         /* grid-column-gap: 10vmax; */
         
         /* padding: 0 3vmax; */
@@ -2407,6 +2447,14 @@ margin-top: .2vmax;
 
 
 @media (min-width:425px) and (max-width:550px){
+    #contact-title-2 {
+        text-align: center;
+        z-index: 999;
+        font-size: 5vmin;
+        color: white;
+        font-weight: 600;
+        line-height: 3rem;
+    }
     .contact-img {
         width: 100%;
         height: 90vh;
@@ -2521,6 +2569,14 @@ margin-top: .2vmax;
 
 @media (min-width:320px) and (max-width:425px){
 
+    #contact-title-2 {
+        text-align: center;
+        z-index: 999;
+        font-size: 5vmin;
+        color: white;
+        font-weight: 600;
+        line-height: 2rem;
+    }
     .contact-img {
         /* border: 1px solid red; */
         width: 100%;
