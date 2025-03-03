@@ -2121,11 +2121,14 @@ font-size: 2.4vmax;
 
 
 .contact {
+    /* overflow-x: hidden; */
     position: absolute;
-    top: 55%;
+    transform: translate(-50);
+    top: 50%;
     left: 5%;
     display: flex;
     gap: 2rem;
+    /* position: relative; */
     /* border:1px solid palevioletred; */
     /* padding: 0 3vmax; */
 
@@ -2263,7 +2266,7 @@ margin-top: .2vmax;
 
 
 /* contact section */
-@media (min-width:768px) and (max-width:1024px)  {
+@media (min-width:850px) and (max-width:1024px)  {
     .contact-map {
         height: 48vmax;
         width: 58vmax;
@@ -2309,7 +2312,34 @@ margin-top: .2vmax;
     }
 }
 
-/* @media only screen and (max-width:850px) {} */
+@media only screen and (max-width:1000px) {
+    .contact {
+        /* position: absolute; */
+        /* transform: translate(-50); */
+        /* top: 50%; */
+        /* left: 5%; */
+        /* display: flex; */
+/*        gap: 2rem; */
+        /* border: 1px solid palevioletred; */
+    }
+
+    .contact-map .contact-map-img {
+        height: 40vmin;
+        width:59vmin;
+    }
+
+    form {
+        background: white;
+        padding: 2vmax;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        width: 28vmax;
+        height: 46vmax;
+        /* flex: 1; */
+    }
+
+}
+
 
 
 @media only screen and (max-width:850px)  {
@@ -2380,7 +2410,7 @@ margin-top: .2vmax;
         /* margin-bottom: 5rem; */
         /* padding-bottom: 1rem; */
         padding-left: 5vmax;
-        width: 80vmax;
+        width: 86vmin;
     }
 
     .contact-info {
@@ -2398,12 +2428,13 @@ margin-top: .2vmax;
 
     form {
         background: white;
-        padding: 2vmax;
+        padding: 3vmin;
         border-radius: 10px;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        width: 89vmax;
-        height: 54vmax;
+        width: 88vmax;
+        height: 61vmax;
         /* flex: 1; */
+        /* border: 1px solid; */
     }
 
     label {
@@ -2413,9 +2444,9 @@ margin-top: .2vmax;
     }
    
     input {
-        padding: .8vmax 1vmax;
-        width: 85vmax;
-        height: 4vmax;
+        padding: 3vmin 2vmin;
+        width: 83vmax;
+        /* height: 4vmax; */
         margin: 1vmax 0;
         border: none;
         border-radius: 20px;
@@ -2425,7 +2456,7 @@ margin-top: .2vmax;
     }
 
     textarea {
-        width: 86vmax;
+        width: 83vmax;
         height: 12vmax;
         padding: 1.5vmax 1vmax;
         margin-top: 1vmax;
@@ -2569,6 +2600,20 @@ margin-top: .2vmax;
 
 @media (min-width:320px) and (max-width:425px){
 
+    .caro-taxt {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        top: 20%;
+        left: 15%;
+        width: 119px;
+        /* line-height: 3rem; */
+        /* color: white; */
+        z-index: 999;
+        /* border: 1px solid; */
+        /* padding-top: 2rem; */
+    }
     #contact-title-2 {
         text-align: center;
         z-index: 999;
@@ -2577,6 +2622,20 @@ margin-top: .2vmax;
         font-weight: 600;
         line-height: 2rem;
     }
+    .caro-taxt p:nth-child(1) {
+        background-color: white;
+        /* padding-top: 1rem; */
+        font-size: .8rem;
+        color: black;
+        width: 98px;
+        height: 16px;
+        /* padding: 1rem 2rem; */
+    }
+    .caro-taxt :first-child span {
+        color: red;
+        font-size: .8rem;
+    }
+
     .contact-img {
         /* border: 1px solid red; */
         width: 100%;
@@ -2591,6 +2650,9 @@ margin-top: .2vmax;
         /* z-index: 0; */
         background-repeat: no-repeat;
         filter: blur(0px);
+    }
+    element.style {
+
     }
    
     .contact {
@@ -2706,6 +2768,8 @@ margin-top: .2vmax;
 
 
 footer{
+    position: absolute;
+    width: 100%;
     margin-top: 17vmax;
     color: white;
     background-color: #1E1E1E;
