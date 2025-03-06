@@ -20,3 +20,8 @@ $('.owl-carousel').owlCarousel({
 
     
 })
+
+// sidebar
+function toggleSidebar() {
+    document.querySelector(".sidebar").classList.toggle("active");
+}
